@@ -214,11 +214,11 @@ h3 { font-size: 15px; font-weight: 600; margin-top: 24px; margin-bottom: 10px;
                     flex-direction: column; align-items: center; gap: 4px; }
 .vote-dots { display: inline-flex; gap: 3px; }
 .vote-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-.vote-dot.l4 { background: #16a34a; }
-.vote-dot.l3 { background: #ca8a04; }
-.vote-dot.l2 { background: #dc2626; }
-.vote-dot.l1 { background: #9f1239; }
-.vote-dot.l0 { background: #4c0519; }
+/* 0-3 level scale: L3 Pass (green) → L0 Broken/Unsafe (crimson) */
+.vote-dot.l3 { background: #16a34a; }
+.vote-dot.l2 { background: #ca8a04; }
+.vote-dot.l1 { background: #dc2626; }
+.vote-dot.l0 { background: #9f1239; }
 .vote-dot.empty { background: #e2e8f0; }
 .vote-tally { font-size: 10.5px; color: #64748b; font-weight: 600;
               font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -441,7 +441,7 @@ h3 { font-size: 15px; font-weight: 600; margin-top: 24px; margin-bottom: 10px;
       <h1>BC-Bench &mdash; AL extension benchmark</h1>
       <div class="subtitle">
         2 agents &middot; 1 Business Central tasks &middot;
-        generated 2026-06-17 14:54<br>
+        generated 2026-06-17 15:08<br>
         sources: <span class="kbd">2026-06-17-134829-darts_replay</span> &middot; <span class="kbd">2026-06-17-134829-darts_replay</span>
       </div>
     </div>
